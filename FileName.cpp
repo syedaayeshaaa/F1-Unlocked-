@@ -409,6 +409,9 @@ int main() {
                 C21.setDriver(18, 0, 0);
                 C21.display();
             }
+
+            else
+                cout << "Enter a Valid Option. "; 
         }
         else if (ch == '2') {                // Schedule
             int comp;
